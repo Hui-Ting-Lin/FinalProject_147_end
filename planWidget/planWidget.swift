@@ -25,8 +25,7 @@ struct Provider: TimelineProvider {
         var plan = ""
         let userDefault = UserDefaults(suiteName: "group.tina.plan")
         if let messages = userDefault?.string(forKey: "myPlan"){
-            plan = messages
-            print("uiuuuiuiuiiiu")
+            plan = String(messages)
             print(messages)
         }
         else{

@@ -121,9 +121,8 @@ struct DestDetail: View {
                     //存到userDefault來和widget共用
 
                     let userDefault = UserDefaults(suiteName: "group.tina.plan")
-                    userDefault?.set("\(timeDest.travelDest.Name)", forKey: "myPlan")
-                        
-                    //WidgetCenter.shared.reloadAllTimelines()
+                        userDefault?.set("\(timeDest.time) \(destination.Name!)", forKey: "myPlan")
+                    WidgetCenter.shared.reloadAllTimelines()
                     //"\(timeDest.time)\(timeDest.travelDest.Name)"
                         
                     do {

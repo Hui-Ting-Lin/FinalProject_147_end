@@ -191,6 +191,8 @@
 		3B1461B625A88F9D00140A02 /* TimeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeString.swift; sourceTree = "<group>"; };
 		3B4489C825B56B25006EDAB8 /* FinalProject_147Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalProject_147Release.entitlements; sourceTree = "<group>"; };
 		3B4489CB25B56C80006EDAB8 /* planWidgetExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = planWidgetExtensionRelease.entitlements; sourceTree = "<group>"; };
+		3B4489D625B5A417006EDAB8 /* planWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = planWidgetExtension.entitlements; sourceTree = "<group>"; };
+		3B4489D925B5A9B0006EDAB8 /* FinalProject_147Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalProject_147Debug.entitlements; sourceTree = "<group>"; };
 		3B746A30259B00D5000E020D /* DestDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestDetail.swift; sourceTree = "<group>"; };
 		3BA3F4BB82B1E25BBFD83310 /* Pods-planWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-planWidgetExtension/Pods-planWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
 		3BAAE9DB2591EC8700B7FCA9 /* FinalProject_147.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject_147.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -345,6 +347,7 @@
 		3BAAE9D22591EC8700B7FCA9 = {
 			isa = PBXGroup;
 			children = (
+				3B4489D625B5A417006EDAB8 /* planWidgetExtension.entitlements */,
 				3BAAE9DD2591EC8700B7FCA9 /* FinalProject_147 */,
 				371A6A5725ADB69C00FA3C5E /* planWidget */,
 				371A6A0B25AD9B1200FA3C5E /* Frameworks */,
@@ -365,6 +368,7 @@
 		3BAAE9DD2591EC8700B7FCA9 /* FinalProject_147 */ = {
 			isa = PBXGroup;
 			children = (
+				3B4489D925B5A9B0006EDAB8 /* FinalProject_147Debug.entitlements */,
 				3B4489C825B56B25006EDAB8 /* FinalProject_147Release.entitlements */,
 				3BAAE9E92591EC8800B7FCA9 /* FinalProject_147.xcdatamodeld */,
 				3BAAE9DE2591EC8700B7FCA9 /* FinalProject_147App.swift */,
@@ -678,6 +682,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = planWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQCPP83MT6;
 				INFOPLIST_FILE = planWidget/Info.plist;
@@ -842,6 +847,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FinalProject_147/FinalProject_147Debug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FinalProject_147/Preview Content\"";
 				DEVELOPMENT_TEAM = CQCPP83MT6;
