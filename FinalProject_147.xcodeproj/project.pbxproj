@@ -263,6 +263,7 @@
 		371A6A5725ADB69C00FA3C5E /* planWidget */ = {
 			isa = PBXGroup;
 			children = (
+				3B4489CB25B56C80006EDAB8 /* planWidgetExtensionRelease.entitlements */,
 				371A6A5825ADB69C00FA3C5E /* planWidget.swift */,
 				371A6A5A25ADB69F00FA3C5E /* Assets.xcassets */,
 				371A6A5C25ADB69F00FA3C5E /* Info.plist */,
@@ -344,8 +345,6 @@
 		3BAAE9D22591EC8700B7FCA9 = {
 			isa = PBXGroup;
 			children = (
-				3B4489CB25B56C80006EDAB8 /* planWidgetExtensionRelease.entitlements */,
-				3B4489C825B56B25006EDAB8 /* FinalProject_147Release.entitlements */,
 				3BAAE9DD2591EC8700B7FCA9 /* FinalProject_147 */,
 				371A6A5725ADB69C00FA3C5E /* planWidget */,
 				371A6A0B25AD9B1200FA3C5E /* Frameworks */,
@@ -366,6 +365,7 @@
 		3BAAE9DD2591EC8700B7FCA9 /* FinalProject_147 */ = {
 			isa = PBXGroup;
 			children = (
+				3B4489C825B56B25006EDAB8 /* FinalProject_147Release.entitlements */,
 				3BAAE9E92591EC8800B7FCA9 /* FinalProject_147.xcdatamodeld */,
 				3BAAE9DE2591EC8700B7FCA9 /* FinalProject_147App.swift */,
 				3BAAE9E02591EC8700B7FCA9 /* ContentView.swift */,
